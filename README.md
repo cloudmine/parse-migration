@@ -29,3 +29,5 @@ This is currently a work in progress. The use case hasn't presented itself until
 3. **Migrate Data.**
 
      ```ruby migrate_app_data.rb start -a "56c63717d2624c7484e4a0125f2aa90b" -k "689EBB2DDFB242628B7514D8FE8B1AD0" -f "data/Sample.json"```
+
+**Note:** The example master key and app id above are fake. :)
