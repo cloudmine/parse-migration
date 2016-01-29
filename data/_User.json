@@ -1,0 +1,13 @@
+{ "results": [
+  {
+    "bcryptPassword": "$2a$10$Diz2JWnwvPo3Zv26oD.zW.PTX0x8a/g4szSVvnKmQTNJLhlUKVCWu",
+    "createdAt": "2016-01-29T13:09:40.381Z",
+    "description": "just another nerd",
+    "email": "ryan@cloudmine.me",
+    "objectId": "7NiVUuUMFn",
+    "phone": "650-555-0000",
+    "sessionToken": "c1tEDx6QAjE8aGZnKK4fhS2R0",
+    "updatedAt": "2016-01-29T13:09:40.381Z",
+    "username": "ryan_donahue"
+  }
+] }

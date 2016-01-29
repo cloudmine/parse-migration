@@ -1,0 +1,30 @@
+{ "results": [
+  {
+    "ACL": {
+      "aSaMpLeUsErId": { "read" :true, "write": true }
+    },
+    "content": "This note is private!",
+    "createdAt": "2016-01-29T13:31:26.286Z",
+    "objectId": "ANBfuEJepZ",
+    "updatedAt": "2016-01-29T13:31:26.286Z"
+  },
+  {
+    "ACL": {
+      "aSaMpLeUsErId": { "read" :true, "write": true }
+    },
+    "content": "This note is private!",
+    "createdAt": "2016-01-29T13:31:25.212Z",
+    "objectId": "IZ6X4Tqw4a",
+    "updatedAt": "2016-01-29T13:31:25.212Z"
+  },
+  {
+    "ACL": {
+      "*": { "read":true },
+      "aSaMpLeUsErId": { "read" :true, "write": true }
+    },
+    "content": "This note is private!",
+    "createdAt": "2016-01-29T13:31:21.582Z",
+    "objectId": "t6dLBoMxNV",
+    "updatedAt": "2016-01-29T13:31:21.582Z"
+  }
+] }
