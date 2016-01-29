@@ -21,6 +21,8 @@ Options
 
 This tool is a set of scripts to leverage the CloudMine REST API to migrate dumped data from Parse. This is an iterative script so if you have an application with a lot of data the best bet is to contact CloudMine to do the migration for you directly on the database. This way the data migrates faster and more accurately. However for playing around with CloudMine with an existing data set these scripts will be sufficient.
 
+You are welcome to use some sample dump files from Parse which have been added to the ```data/``` directory. This script has been used internally but all the potential use cases of Parse are definitely not there yet. CloudMine welcomes issues filed or PRs which cover some of the other use cases which existing migrations haven't touched on yet.
+
 1. **Migrate users.**
 User structures are relatively the same for CloudMine and Parse. However, we are currently not migrating user passwords. In the past we used this script to generate a random password and then utilize the password reset endpoints to trigger the user to reset their password. If this is not sufficient please contact CloudMine to help with a more transparent migration strategy.
 
