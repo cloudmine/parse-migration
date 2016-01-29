@@ -24,7 +24,7 @@ User shapes are relatively the same for CloudMine and Parse. However, we are cur
      ```ruby migrate_users.rb start -a "56c63717d2624c7484e4a0125f2aa90b" -k "689EBB2DDFB242628B7514D8FE8B1AD0" -f "data/_User.json"```
 
 2. **Migrate Roles.**
-This is currently a work in progress. The use case hasn't presented itself until no.
+This is currently a work in progress. The use case hasn't presented itself until now.
 
 3. **Migrate Data.**
 
