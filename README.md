@@ -35,4 +35,10 @@ This is currently a work in progress. The use case hasn't presented itself until
 
      ```ruby migrate_app_data.rb start -a "56c63717d2624c7484e4a0125f2aa90b" -k "689EBB2DDFB242628B7514D8FE8B1AD0" -f "data/Sample.json"```
 
-**Note:** The example master key and app id above are fake. :)
+**Notes:** 
+
+1. The example `Master Key` and `App Id` above are fake. :)
+
+2. If migrating large data sets (on the order of GBs), please notify `support@cloudmine.me`. We can assist with these types of migrations by importing the data directly on the backend, which will allow the scripts to run with greater efficiency and will save you time in the process!
+
+3. If any of your objects contain `geopoints`, please email CloudMine support (`support@cloudmine.me`) with an `example object shape` and your `App Id`. Due to differences in how these obejcts are stored between Parse and CloudMine, we will need to perform some behind-the-scenes tuning to ensure your application's performance when executing location-based queries. 
